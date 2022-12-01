@@ -10,7 +10,7 @@ function App() {
           <span></span>
         </div>
        <h1 className='Main'>
-        coming soon...
+        coming soon . . . 
        </h1>
         <a
           className="App-link"
