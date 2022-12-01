@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 200px;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: local("Clash Grotesk"),
+  url("./fonts/ClashGrotesk-Regular.ttf") format("truetype");
+}
+.Main {
+  padding-top: 24px;
+  font-family: "Clash Grotesk";
+  font-size: 16px;
+}
+
+.App-header {
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
