@@ -1,43 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 200px;
-  pointer-events: none;
-}
 
 @font-face {
   font-family: "Clash Grotesk";
   src: local("Clash Grotesk"),
   url("./fonts/ClashGrotesk-Regular.ttf") format("truetype");
-}
-.Main {
-  padding-top: 24px;
-  font-family: "Clash Grotesk";
-  font-size: 16px;
-}
+  font-family: "General Sans";
+  src: local("./fonts/GeneralSans-Regular.ttf") format("truetype")
+} 
 
-.App-header {
-  background-color: #1e1e1e;
+.App {
+  background-color: #540CF2;
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  
+
+}
+.content{
+  background: url('./assets/circle-phone.svg') center no-repeat;
+  width: auto;
+  height: auto;
+  justify-content: baseline;
+  
+}
+.App-content{
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+.container {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 36px;
+  
+
+
+}
+.App-logo {
+  height: 90.01px;
+  width: 78.96px;
+  padding-left: 0.05px;
+  pointer-events: none;
+}
+.App-text {
+  align-items: center;
+}
+
+
+.Text {
+  margin: 0;
+  text-align: center;
+  font-family: "Clash Grotesk";
+  font-weight: 400;
+  font-size: 13.7vmin;
+}
+.button {
+  margin-top: 22px;
+  border-radius: 14px;
+  background-color: #9349FF; 
+  border: none;
+  display: inline-block;
+ 
+}
+.button-text {
+  font-family: "General Sans";
+  margin: 0;
+  padding: 22px 14px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.space {
+  margin-left: 1vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
