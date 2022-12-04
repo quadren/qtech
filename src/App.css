@@ -11,8 +11,8 @@
 
 .App {
   background-color: #540CF2;
-  height: auto;
-  background-size: cover;
+  height: max-content;
+  background-size: 100vh;
   background-position: center center;
   position: relative;
 
